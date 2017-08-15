@@ -8466,9 +8466,42 @@ a:active {
   border-width: 0 0 1px;
 }
 
+.typo-line-thin-color-primary {
+  padding-right: -3px;
+  padding-bottom: 7px;
+  padding-left: -3px;
+  margin-right: 10px;
+  line-height: 170%;
+  border-color: #805ccf;
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+
+.typo-line-thin-color-warning {
+  padding-right: -3px;
+  padding-bottom: 7px;
+  padding-left: -3px;
+  margin-right: 10px;
+  line-height: 170%;
+  border-color: #dbb556;
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+
+.typo-line-thin-color-danger {
+  padding-right: -3px;
+  padding-bottom: 7px;
+  padding-left: -3px;
+  margin-right: 10px;
+  line-height: 170%;
+  border-color: #e5625a;
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+
 .part-padding {
   padding-top: 40px;
-  padding-bottom: -30px;
+  margin-bottom: 30px;
 }
 
 .biography-padding {
