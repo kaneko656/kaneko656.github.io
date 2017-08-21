@@ -8435,7 +8435,7 @@ a:active {
 
 .typo-line-thin {
   padding-right: -3px;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
   padding-left: -3px;
   margin-right: 10px;
   line-height: 170%;
@@ -8446,7 +8446,7 @@ a:active {
 
 .typo-line-color-info {
   padding-right: -2px;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
   padding-left: -2px;
   margin-right: 10px;
   line-height: 170%;
@@ -8457,7 +8457,7 @@ a:active {
 
 .typo-line-thin-color-info {
   padding-right: -3px;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
   padding-left: -3px;
   margin-right: 10px;
   line-height: 170%;
@@ -8511,6 +8511,11 @@ a:active {
   margin-top: 0;
 }
 
+@media screen and (min-width: 480px) {
+  .br-480 {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .br-xs {
     display: none;
