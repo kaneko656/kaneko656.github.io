@@ -56,4 +56,18 @@ window.addEventListener("load", function() {
             return false;
         });
     });
+
+    $(".navbar-nav li a").click(function(event) {
+        $(".navbar-collapse").collapse('hide');
+    });
+
+
+
+    $(window).on('load resize', function() {
+        if (window.innerWidth <= 768) {
+            $('#navbar_div').addClass('navbar-fixed-top')
+        } else {
+            $('#navbar_div').removeClass('navbar-fixed-top')
+        }
+    })
 })
