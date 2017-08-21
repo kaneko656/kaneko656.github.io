@@ -67,8 +67,8 @@ $(".navbar-nav li a").click(function(event) {
 
 $(window).on('load resize', function() {
     if (window.innerWidth <= 768) {
-        $('#navbar_div').addClass('navbar-fixed-top')
         $('#bxslider_div').css('margin-top', '90px')
+        $('#navbar_div').addClass('navbar-fixed-top')
     } else {
         $('#navbar_div').removeClass('navbar-fixed-top')
         $('#bxslider_div').css('margin-top', '-10px')
@@ -76,9 +76,10 @@ $(window).on('load resize', function() {
 })
 
 if (window.innerWidth <= 768) {
-    $('#navbar_div').addClass('navbar-fixed-top')
     $('#bxslider_div').css('margin-top', '90px')
+    $('#navbar_div').addClass('navbar-fixed-top')
 } else {
-    $('#navbar_div').removeClass('navbar-fixed-top')
     $('#bxslider_div').css('margin-top', '-10px')
+    $('#navbar_div').removeClass('navbar-fixed-top')
+
 }
