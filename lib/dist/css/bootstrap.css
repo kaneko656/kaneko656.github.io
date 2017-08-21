@@ -8511,6 +8511,21 @@ a:active {
   margin-top: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .br-xs {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .br-sm {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .br-md {
+    display: none;
+  }
+}
 .btn.active, .btn:active {
   -webkit-box-shadow: none;
           box-shadow: none;
