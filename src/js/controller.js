@@ -14,7 +14,7 @@ window.addEventListener("load", function() {
     $(function() {
 
         // スクロールのオフセット値
-        var offsetY = -10
+        var offsetY = -50
         // スクロールにかかる時間
         var time1 = 180
         var time2 = 200
